@@ -1,0 +1,25 @@
+= Heroku Auth Gitconfig
+
+Store your Heroku credentials in your <tt>.git/config</tt>.
+
+== Install
+
+ heroku plugins:install git://github.com/matthewtodd/heroku-auth-gitconfig.git
+
+== Configure
+
+During the course of your normal `heroku` command-line usage, you'll
+automatically be prompted for your credentials, which will then be stored in
+your <tt>.git/config</tt>. Done.
+
+If you generally use the same account all the time, you can
+
+ git config --global heroku.account <EMAIL>
+ git config --global heroku.password <PASSWORD>
+
+And so on.
+
+== Thanks
+
+For a work-in-progress more comprehensive take on this idea, see
+http://github.com/ddollar/heroku-accounts.
