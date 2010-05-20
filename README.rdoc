@@ -21,5 +21,9 @@ And so on.
 
 == Thanks
 
-For a work-in-progress more comprehensive take on this idea, see
-http://github.com/ddollar/heroku-accounts.
+Inspired by David Dollar's work-in-progress more comprehensive take on this
+idea: http://github.com/ddollar/heroku-accounts. Once that's ready, you'll
+probably prefer it to this little thing.
+
+(And really, has no one done this before? Maybe my GitHub search skills are
+failing me.)
