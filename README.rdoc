@@ -2,6 +2,10 @@
 
 Store your Heroku credentials in your <tt>.git/config</tt>.
 
+This way, you won't have to manually re-authenticate if you work on apps with
+different owners and need to perform owner-only operations (say, installing
+add-ons) on them.
+
 == Install
 
  heroku plugins:install git://github.com/matthewtodd/heroku-auth-gitconfig.git
